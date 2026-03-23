@@ -1,5 +1,7 @@
 data "aws_partition" "current" {}
 
+# THIS IS SPARTA
+
 locals {
   create = var.create && var.putin_khuylo
 
